@@ -25,7 +25,7 @@ https://gitlab.com/KWM-PSY/platform-commander/-/wikis/FAQ
 -----------------------------------------------------------
 **Required Hardware:**
 
-At the moment _PlatformCommander_ has beed tested for a MOOG 6 DOF 2000E motion platform (Models 170E122, 170E131; Nov 12, 1999). Currently, we adapt the code for the support of the MB-E-6DOF/12/1800KG model (Dec 15, 2020).
+At the moment _PlatformCommander_ has beed tested for a MOOG 6 DOF 2000E motion platform (Models 170E122, 170E131; Nov 12, 1999). Currently, we adapt the code to also support the MB-E-6DOF/12/1800KG model (Dec 15, 2020).
 
 A fully functional version of the server can be installed on hardware as thriftily as a Raspberry Pi 4 (https://www.raspberrypi.org/). 
 In our lab an emulator version of the server installed on a raspberry pi is used for the implementation, testing and debugging of new experiments, the development of client-applications, and teaching purposes. 
