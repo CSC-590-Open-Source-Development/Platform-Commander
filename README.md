@@ -9,14 +9,17 @@ An article published in SoftwareX, describing the basic functionality, can be [h
 _PlatformCommander_ consists of multiple modules. The server connects to the Moog motion platform and manages the 
 communication with it. 
 Client applications connect to the server and send requests on what the platform should do.
+
 -----------------------------------------------------------
 **Videos**
+
 - installation procedure >> https://tube.switch.ch/videos/szBEimBJzM
 - reference experiments >> https://tube.switch.ch/videos/wYJPDMbzPj
 - gui >> https://tube.switch.ch/videos/WCoJg4spvl
 - joystick mode >> https://tube.switch.ch/videos/hGwHnu4acO
 - visual stimuli subsystem >> https://tube.switch.ch/videos/rfkp777f0d
-- GVS >>https://tube.switch.ch/videos/UjSUUcfQ1N
+- GVS >> https://tube.switch.ch/videos/UjSUUcfQ1N
+
 -----------------------------------------------------------
 **FAQ**
 
@@ -38,6 +41,11 @@ Our server is equipped with a NVIDIA GeForce GTX 760 (https://www.nvidia.de/ gtx
 For interfacing peripheral analogue devices the server is also equipped with a multi-function measurement and control board (PCIe- DAS1602/16, Measurement Computing, https://www.mccdaq.com/ pci-data-acquisition/PCIe-DAS1602-16.aspx).
 
 -----------------------------------------------------------
+**Supported Hardware**
+
+_PlatformCommander_ has been used in combination with various VR-devices (HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X).
+
+-----------------------------------------------------------
 **How to get started**
 
 **Server/Emulator**
@@ -54,7 +62,14 @@ Once you installed the emulator you connect to it via UDP.
 A client application written in Julia is part of _PlatformCommander_ and a good starting point. 
 Most of the [test](https://gitlab.com/KWM-PSY/moogcom/-/tree/master/test) functions should work in combination with the emulator. Follow these [instructions](https://gitlab.com/KWM-PSY/julia_config) for the installation and setup of Julia.
 
------------------------------------------------------------
-**Supported Hardware**
-_PlatformCommander_ has been used in combination with various VR-devices (HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X).
+We have stopped developing and maintaining the client (MoogCom, Exp_helper), as described in the SoftwareX article.
+Instead, we are currently working on a new client called [mpc](https://gitlab.com/KWM-PSY/mpc).
 
+-----------------------------------------------------------
+**Beyond the raspberry pi**
+
+The code provided in this repository can be installed on a real PC as specified above. 
+Though, we do not recommend to do that. 
+The installation process is relatively complicated and the code base does contain bugs and the latest features are not available.
+If you want to use _PlatformCommander_ on real hardware open an [issue](https://gitlab.com/KWM-PSY/platform-commander/-/issues).
+We can then provide you the latest version along with some installation instructions.
