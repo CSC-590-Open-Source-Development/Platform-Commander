@@ -11,7 +11,9 @@ communication with it.
 Client applications connect to the server and send requests on what the platform should do.
 
 **Comming soon**
+
 We are currently working on the integration of the [yaw2](https://www.yawvr.com/) as supported motion device.
+
 -----------------------------------------------------------
 **Videos**
 
