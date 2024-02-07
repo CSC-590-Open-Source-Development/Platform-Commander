@@ -45,9 +45,13 @@ Our server is equipped with a NVIDIA GeForce GTX 760 (https://www.nvidia.de/ gtx
 For interfacing peripheral analogue devices the server is also equipped with a multi-function measurement and control board (PCIe- DAS1602/16, Measurement Computing, https://www.mccdaq.com/ pci-data-acquisition/PCIe-DAS1602-16.aspx).
 
 -----------------------------------------------------------
-**Supported Hardware**
+**Supported Hardware / Harware we have used at some point**
 
-_PlatformCommander_ has been used in combination with various VR-devices (HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X).
+VR devices: HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X
+
+Joysticks: Thrustmaster Hotas Warthog Flight Stick
+
+Gamepads (only button, no stick support): Logitech G F710, Logitech G F310
 
 -----------------------------------------------------------
 **How to get started**
