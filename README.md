@@ -35,19 +35,20 @@ At the moment _PlatformCommander_ has beed tested for a MOOG 6 DOF 2000E motion 
 Additionally, _PlatformCommander_ can interface [yaw2](https://www.yawvr.com/) motion devices.
 
 A fully functional version of the server can be installed on hardware as thriftily as a Raspberry Pi 4 (https://www.raspberrypi.org/). 
-In our lab an emulator version of the server installed on a raspberry pi is used for the implementation, testing and debugging of new experiments, the development of client-applications, and teaching purposes. 
-However, experiments with complex 3D models consisting of a large number of triangles result in a poor frame-rate due to the limited GPU power.
-For an optimal experience the server should be installed on a GNU/Linux-PC with sufficient performance, e.g. an Intel Celeron CPU or an Intel I5 CPU. 
+In our lab an emulator version of the server installed on a Raspberry Pi is used for the implementation, testing and debugging of new experiments, the development of client-applications, and teaching purposes. 
+However, experiments with complex 3D models consisting of numerous triangles result in a poor frame-rate due to the limited GPU power.
+For an optimal experience, the server should be installed on a GNU/Linux-PC with sufficient performance, e.g. an Intel Celeron CPU or an Intel I5 CPU. 
 The requirements regarding RAM and hard disk space are also relatively low. PlatformCommander runs fine with a minimum of 4 GB RAM. 
 In total PlatformCommander and the GNU/Linux do use less than 5 GB, but in order to store the audio, video and GVS stimulus profiles as well as the log-files we recommend a 1 TB hard drive. 
-If the hexapod is combined with VR-graphics, a modern video-card with at least 4 GB memory and a sufficient number of output-connectors (HDMI, DVI, etc.) for all needed screens and goggles is required. Please note that at this point PlatformCommander does only support NVIDIA graphic cards. 
-Our server is equipped with a NVIDIA GeForce GTX 760 (https://www.nvidia.de/ gtx-700-graphics-cards/gtx-760/).
+If the hexapod is combined with VR-graphics, a modern video-card with at least 4 GB memory and a sufficient number of output-connectors (HDMI, DVI, etc.) for all needed screens and goggles is required. 
+Please ensure the graphic card is sufficient for the VR goggle you intend to use. For example, the Pimax Crystal light requires a RTX4080 for best experience. Please note that at this point, PlatformCommander does only support NVIDIA graphic cards. 
+Currently, our server is equipped with an NVIDIA GeForce GTX 760 (https://www.nvidia.de/ gtx-700-graphics-cards/gtx-760/) and works well for a Pimax 8k.
 For interfacing peripheral analogue devices the server is also equipped with a multi-function measurement and control board (PCIe- DAS1602/16, Measurement Computing, https://www.mccdaq.com/ pci-data-acquisition/PCIe-DAS1602-16.aspx).
 
 -----------------------------------------------------------
 **Supported Hardware / Harware we have used at some point**
 
-VR devices: HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X
+VR devices: HTC-VIVE, HTC-VIVE pro, HTC-VIVE pro2, Pimax Vision 8K X, Pimax Crystal light (excluding eye-tracking)
 
 Joysticks: Thrustmaster Hotas Warthog Flight Stick
 
